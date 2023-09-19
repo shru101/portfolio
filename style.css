@@ -52,7 +52,7 @@ h4 {
 	color: white;
 	text-align: center;
 	padding-top: 10px;
-text-decoration: underline;
+	text-decoration: underline;
 }
 
 h5 {
@@ -60,6 +60,7 @@ h5 {
 	font-size: 40px;
 	color: white;
 	text-decoration: underline;
+	text-align: center;
 }
 
 p {
@@ -202,8 +203,8 @@ textarea {
 }
 
 .rp p{
-	margin: 20px 400px 0px;
-	padding-bottom: 20px;
+	margin: 0px 400px;
+	padding-bottom: 0px;
 	color: #644626;
 	font-size: 20px;
 }
@@ -211,6 +212,14 @@ textarea {
 .rp h4{
 	color: #644626;
 	padding-top: 20px;
+}
+
+.rp h5 {
+	font-family: 'yonderregular';
+	font-size: 40px;
+	color: #644626;
+	text-decoration: underline;
+	text-align: center;
 }
 
 .rp h6{
@@ -240,8 +249,10 @@ textarea {
 	background-color:#b57f45;
 }
 
-.tree-iframe {
-	margin: auto;
+.tree-inset img {
+	width: 100%;
+	display: block;
+	justify-content: center;
 }
 
 .video-container {
