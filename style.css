@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'yonderregular';
+    src: url('yonder-webfont.woff2') format('woff2'),
+         url('yonder-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	background-color: #2d4016;
+}
+
+footer {
+	background-image: url("bg/footer.png");
+	postion: fixed;
+	width: 100%;
+	height: 390px;
+	display: flex;
+	flex-direction: column;
+}
+
+form {
+	display: block;
+	margin-left: 340px;
+}
+
+label {
+	font-family: "yonderregular";
+	font-size: 20px;
+	color: white;
+}
+
+h1 {
+	font-family: "yonderregular";
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+
+h4 {
+	font-family: "yonderregular";
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h5 {
+	font-family: 'yonderregular';
+	font-size: 40px;
+	color: white;
+	text-decoration: underline;
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	font-size: 17px;	
+	line-height: 1.5;
+	margin: 10px 5px;
+	color: black;
+}
+table, th, td {
+	border: 5px solid;
+	text-align: center;
+	padding: 10px 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #644626;
+	font-size: 20px;
+}
+
+textarea {
+	width: 600px;
+	height: 200px;
+}
+
+.courses-container {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-links {
+	margin: 100px 0px 0px 300px;
+	width: 350px;
+}
+
+.footer-links a {
+	font-family: "yonderregular";
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.header-navigation {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 55px;
+	
+}
+
+.header-button {
+	display: block;
+	margin: 10px auto 0px;
+	width: 50px;
+}
+
+.header-button-text {
+	text-decoration: none;
+	text-align: left;
+	color: white;
+	opacity: 0;
+  	transition: opacity 0.3s ease-in-out;
+	font-family: "yonderregular";
+	font-size: 30px;
+}
+
+.header-button img:hover + .header-button-text{
+	opacity: 1;
+}
+
+.home {
+	background-image: url("bg/home.png");
+}
+
+.home p{
+	color: white;
+}
+
+.home ul {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	list-style-type: square;
+	font-size: 20px;
+	color: white;
+	line-height: 2;
+	margin: 0px 40px;
+}
+
+.homepage-card {
+	background-color: #698745;
+	width: 900px;
+	height: 400px;
+	box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.2);
+	display: flex;
+}
+
+.homepage-card iframe {
+	float: right;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	margin: auto;
+}
+
+.inner-footer {
+	background-image: url("bg/inner-footer.png");
+	postion: fixed;
+	width: 100%;
+	height: 468px;
+	display: flex;
+	flex-direction: column;
+}
+
+.page-sub {
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.process {
+	background-image: url('bg/rp-mid.png');
+}
+
+.process p {
+	margin: 0px 400px;
+	line-height: 2;
+	font-size: 17px;
+}
+
+.process img{
+	width: 50%;	
+}
+
+.rp ul{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	list-style-type: square;
+	font-size: 20px;
+	line-height: 2;
+	margin: 0px 450px;
+	color: #644626;
+}
+
+.rp p{
+	margin: 20px 400px 0px;
+	padding-bottom: 20px;
+	color: #644626;
+	font-size: 20px;
+}
+
+.rp h4{
+	color: #644626;
+	padding-top: 20px;
+}
+
+.rp h6{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #644626;
+	font-size: 25px;
+	margin-left: 400px;
+	padding-top: 20px;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 700px;
+	padding-bottom: 200px;
+}
+
+.tree-inset {	
+	margin: 10px 300px 0px;
+	border-style: inset;
+	border-width: 10px;
+	border-top-color: #B48759;
+	border-left-color: #B48759;
+	border-bottom-color: #594128;
+	border-right-color: #594128;
+	background-color:#b57f45;
+}
+
+.tree-iframe {
+	margin: auto;
+}
+
+.video-container {
+	margin: 100px 453px 0px;
+}

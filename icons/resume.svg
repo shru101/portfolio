@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.52 60.43">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: .97;
+        stroke-width: .5px;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_7" data-name="Layer 7">
+    <rect class="cls-3" x="2" y="2" width="44.52" height="56.43"/>
+    <ellipse class="cls-1" cx="13.14" cy="10.85" rx="3.01" ry="2.84"/>
+    <path class="cls-1" d="m17.27,18.3c0,2.35-1.85,2.13-4.13,2.13s-4.13.22-4.13-2.13,1.85-4.25,4.13-4.25,4.13,1.9,4.13,4.25Z"/>
+    <rect class="cls-2" x="22.52" y="16.66" width="19.51" height="3.84" rx=".95" ry=".95"/>
+    <rect class="cls-2" x="22.52" y="8.43" width="19.51" height="3.84" rx=".95" ry=".95"/>
+    <rect class="cls-2" x="6.7" y="27.32" width="35.32" height="3.84" rx=".95" ry=".95"/>
+    <rect class="cls-2" x="6.79" y="48.32" width="35.32" height="3.84" rx=".95" ry=".95"/>
+    <rect class="cls-2" x="6.79" y="37.32" width="35.32" height="3.84" rx=".95" ry=".95"/>
+  </g>
+</svg>
